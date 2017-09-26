@@ -4,13 +4,15 @@ html {
 }
 
 #header {
-    background-image: url("../images/the-flatiron-building.png") no-repeat;
-    background-size: cover
-    }
+    background-image: url("../images/the-flatiron-building.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      }
 #header h1 {
   font-size: 70px;
   font-weight: bold;
-  color: gray;
+  color: white;
 }
 
 .nav ul {
@@ -20,7 +22,7 @@ html {
 
 .nav a {
   font-size: 18px;
-  color: gray;
+  color: white;
 }
 h2 {
   font-size: 32px;
@@ -36,9 +38,10 @@ p {
 
 
 #work h4 {
-  background-image: url("../images/the-flatiron-building.png") no-repeat;
+  background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
   font-size: 23px;
-  color:gray;
+  color:white;
 }
 
 .footer {
